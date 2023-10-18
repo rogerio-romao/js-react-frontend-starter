@@ -11,6 +11,7 @@ module.exports = {
         'sonarjs',
         'promise',
         'react',
+        'react-hooks',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -20,7 +21,7 @@ module.exports = {
             jsx: true,
         },
     },
-    extends: ['plugin:react/jsx-runtime'],
+    extends: ['plugin:react/jsx-runtime', 'plugin:react-hooks/recommended'],
     settings: {
         react: {
             pragma: 'React', // Pragma to use, default to "React"

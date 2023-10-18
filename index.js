@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function useColor() {
     // useState call is destructured into value + setter pair, but identifier
