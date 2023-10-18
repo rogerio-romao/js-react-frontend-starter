@@ -463,5 +463,13 @@ module.exports = {
         'react/no-multi-comp': ['warn', { ignoreStateless: false }],
         'react/no-object-type-as-default-prop': 'error',
         'react/no-this-in-sfc': 'error',
+        'react/no-unknown-property': 'error',
+        'react/no-unstable-nested-components': 'warn',
+        'react/no-unused-prop-types': 'warn',
+        'react/prefer-read-only-props': 'warn',
+        'react/prop-types': 'warn',
+        'react/self-closing-comp': 'warn',
+        'react/style-prop-object': 'warn',
+        'react/void-dom-elements-no-children': 'error',
     },
 };

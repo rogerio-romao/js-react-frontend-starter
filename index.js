@@ -12,7 +12,7 @@ function Component({ content, ...props }) {
         <>
             <div>{props.content}</div>
 
-            <a href='www.cjj.kd' target='_blank'></a>
+            <a href='www.cjj.kd' target='_blank' />
 
             {Array.from([1, 2, 3], (x, index) => (
                 <div key={index} {...props}>
@@ -26,5 +26,3 @@ function Component({ content, ...props }) {
 function Hello() {
     return <Component content='Hello' />;
 }
-
-React.render(<Component />, document.querySelector('#root'));
