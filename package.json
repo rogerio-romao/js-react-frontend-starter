@@ -8,7 +8,8 @@
         "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
         "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
         "lint:css": "stylelint \"**/*.{css, scss}\"",
-        "lint:css:fix": "stylelint \"**/*.{css, scss}\" --fix"
+        "lint:css:fix": "stylelint \"**/*.{css, scss}\" --fix",
+        "test": "vitest"
     },
     "repository": {
         "type": "git",
@@ -21,6 +22,7 @@
     },
     "homepage": "https://github.com/rogerio-romao/eslint-preset-js-frontend#readme",
     "devDependencies": {
+        "@isnotdefined/stylelint-plugin": "^3.1.0",
         "@typescript-eslint/parser": "^6.8.0",
         "eslint": "^8.50.0",
         "eslint-plugin-eslint-comments": "^3.2.0",
@@ -30,7 +32,6 @@
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-sonarjs": "^0.21.0",
         "eslint-plugin-unicorn": "^48.0.1",
-        "@isnotdefined/stylelint-plugin": "^3.1.0",
         "stylelint": "^15.10.3",
         "stylelint-a11y": "^1.2.3",
         "stylelint-css-modules": "^1.2.2",
@@ -44,7 +45,8 @@
         "stylelint-rem-over-px": "^1.0.1",
         "stylelint-selector-tag-no-without-class": "^2.0.6",
         "stylelint-use-nesting": "^4.1.0",
-        "stylelint-value-no-exposed-custom-properties": "^2.3.1"
+        "stylelint-value-no-exposed-custom-properties": "^2.3.1",
+        "vitest": "^0.34.6"
     },
     "dependencies": {
         "react": "^18.2.0"
