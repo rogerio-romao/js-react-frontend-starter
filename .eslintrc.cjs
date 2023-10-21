@@ -23,6 +23,7 @@ module.exports = {
     },
     extends: ['plugin:react/jsx-runtime', 'plugin:react-hooks/recommended'],
     settings: {
+        'import/ignore': ['.css$', 'node_modules/*'],
         react: {
             pragma: 'React', // Pragma to use, default to "React"
             fragment: 'Fragment', // Fragment to use (may be a property of <pragma>), default to "Fragment"
