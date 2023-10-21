@@ -375,7 +375,7 @@ module.exports = {
         'import/no-named-as-default': 'error',
         'import/no-named-default': 'error',
         'import/no-self-import': 'error',
-        'import/no-unresolved': 'error',
+        'import/no-unresolved': 'off',
         'import/no-useless-path-segments': [
             'error',
             { noUselessIndex: true, commonjs: true },

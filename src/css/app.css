@@ -1,3 +1,4 @@
-/* Reset and Normalize CSS */
-@import './vendor/reset.css';
-@import './vendor/normalize.css';
+h1 {
+    color: rebeccapurple;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
