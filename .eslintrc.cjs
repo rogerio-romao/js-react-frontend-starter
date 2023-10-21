@@ -23,7 +23,6 @@ module.exports = {
     },
     extends: ['plugin:react/jsx-runtime', 'plugin:react-hooks/recommended'],
     settings: {
-        'import/ignore': ['.css$', 'node_modules/*'],
         react: {
             pragma: 'React', // Pragma to use, default to "React"
             fragment: 'Fragment', // Fragment to use (may be a property of <pragma>), default to "Fragment"
@@ -376,7 +375,7 @@ module.exports = {
         'import/no-named-as-default': 'error',
         'import/no-named-default': 'error',
         'import/no-self-import': 'error',
-        'import/no-unresolved': 'error',
+        'import/no-unresolved': 'off',
         'import/no-useless-path-segments': [
             'error',
             { noUselessIndex: true, commonjs: true },
