@@ -1,4 +1,4 @@
-# eslint-preset-js-frontend
+# js-react-frontend-starter
 
 Project Starter for Frontend JS projects - React
 
