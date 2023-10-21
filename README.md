@@ -13,6 +13,8 @@ Project Starter for Frontend JS projects - React
 -   CI - TravisCI integrated and configured, runs the linting and test commands
     on pull requests to main branch.
 
+-   Vite based React minimal setup.
+
 -   Gitignore file configured for all usual NodeJS/Javascript ignores.
 
 -   Prettier config, explicit rules based on my VSCode Prettier settings, for
