@@ -5,8 +5,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-        "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+        "lint": "eslint . --ext .js,.jsx",
+        "lint:fix": "eslint . --ext .js,.jsx --fix",
         "lint:css": "stylelint \"**/*.{css, scss}\"",
         "lint:css:fix": "stylelint \"**/*.{css, scss}\" --fix",
         "test": "vitest"
