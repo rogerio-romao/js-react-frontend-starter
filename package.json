@@ -11,11 +11,12 @@
         "lint:fix": "eslint . --ext .js,.jsx --fix",
         "lint:css": "stylelint \"**/*.{css, scss}\"",
         "lint:css:fix": "stylelint \"**/*.{css, scss}\" --fix",
-        "test": "vitest"
+        "test": "vitest",
+        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rogerio-romao/eslint-preset-js-frontend.git"
+        "url": "git+https://github.com/rogerio-romao/js-react-frontend-starter.git"
     },
     "author": "Rogerio Romao",
     "license": "ISC",
@@ -24,7 +25,7 @@
     },
     "homepage": "https://github.com/rogerio-romao/eslint-preset-js-frontend#readme",
     "browserslist": [
-      "fully supports es6-module"
+        "fully supports es6-module"
     ],
     "devDependencies": {
         "@isnotdefined/stylelint-plugin": "^3.1.0",
