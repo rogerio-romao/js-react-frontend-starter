@@ -13,7 +13,9 @@ Project Starter for Frontend JS projects - React
 -   CI - TravisCI integrated and configured, runs the linting and test commands
     on pull requests to main branch.
 
--   Vite based React minimal setup.
+-   Vite based React minimal setup. Featuring fast build times, HMR, Typescript
+    and JSX support out-of-the-box, assets and public folders, all CSS syntaxes,
+    PostCSS compatibility and minification. Direct import of assets and JSON.
 
 -   Gitignore file configured for all usual NodeJS/Javascript ignores.
 
