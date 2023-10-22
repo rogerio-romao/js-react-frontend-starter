@@ -5,8 +5,9 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --open",
         "build": "vite build",
+        "preview": "vite preview --open",
         "lint": "eslint . --ext .js,.jsx",
         "lint:fix": "eslint . --ext .js,.jsx --fix",
         "lint:css": "stylelint \"**/*.{css, scss}\"",
