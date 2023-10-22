@@ -25,7 +25,7 @@
     "homepage": "https://github.com/rogerio-romao/eslint-preset-js-frontend#readme",
     "browserslist": [
       "fully supports es6-module"
-    ]
+    ],
     "devDependencies": {
         "@isnotdefined/stylelint-plugin": "^3.1.0",
         "@types/react": "^18.2.31",
