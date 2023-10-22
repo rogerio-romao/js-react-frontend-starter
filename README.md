@@ -20,6 +20,8 @@ Project Starter for Frontend JS projects - React
 -   Prettier config, explicit rules based on my VSCode Prettier settings, for
     consistency across projects or environments.
 
+-   CSS reset & normalize.
+
 -   Stylelint CSS linting, with custom rules, including the use of several
     plugins.
 
