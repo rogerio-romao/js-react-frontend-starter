@@ -55,6 +55,9 @@ devDependencies:
   eslint-plugin-unicorn:
     specifier: ^48.0.1
     version: 48.0.1(eslint@8.51.0)
+  husky:
+    specifier: ^8.0.0
+    version: 8.0.3
   stylelint:
     specifier: ^15.10.3
     version: 15.11.0(typescript@5.2.2)
@@ -2514,6 +2517,12 @@ packages:
       assert-plus: 1.0.0
       jsprim: 1.4.2
       sshpk: 1.17.0
+    dev: true
+
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /iconv-lite@0.4.24:

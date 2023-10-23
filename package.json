@@ -15,7 +15,8 @@
         "test": "vitest",
         "test:ci": "vitest run",
         "test:coverage": "vitest run --coverage",
-        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci"
+        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -60,7 +61,8 @@
         "stylelint-use-nesting": "^4.1.0",
         "stylelint-value-no-exposed-custom-properties": "^2.3.1",
         "vite": "^4.5.0",
-        "vitest": "^0.34.6"
+        "vitest": "^0.34.6",
+        "husky": "^8.0.0"
     },
     "dependencies": {
         "react": "^18.2.0",
