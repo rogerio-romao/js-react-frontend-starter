@@ -29,7 +29,10 @@ Project Starter for Frontend JS projects - React
 
 -   Pnpm as the package manager.
 
--   Vitest is the test runner, with sample test in the src folder.
+-   Vitest is the test runner, with sample test in the src folder and CI
+    integrated.
+
+-   Playwright E2E tests on all major browsers and CI integrated.
 
 -   Main branch is protected and can only be pushed to by pull request. Husky
     pre-commit hook installed, runs all the linting and tests before commiting.
