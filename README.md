@@ -31,8 +31,7 @@ Project Starter for Frontend JS projects - React
 
 -   Vitest is the test runner, with sample test in the src folder.
 
--   Main branch is protected and can only be pushed to by pull request.
-Husky
+-   Main branch is protected and can only be pushed to by pull request. Husky
     pre-commit hook installed, runs all the linting and tests before commiting.
 
 -   Dependabot installed and configured, to provide dependency updates and
