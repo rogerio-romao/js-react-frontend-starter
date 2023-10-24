@@ -1,6 +1,7 @@
+dist: focal
 language: node_js
 node_js:
-    - '16'
+    - '19'
 install:
     - npm install -g pnpm
     - pnpm install
