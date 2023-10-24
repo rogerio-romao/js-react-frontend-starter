@@ -1,4 +1,16 @@
-import { afterEach, beforeEach, describe, expect, it, test, vi } from 'vitest';
+import { graphql, http } from 'msw';
+import { setupServer } from 'msw/node';
+import {
+    afterAll,
+    afterEach,
+    beforeAll,
+    beforeEach,
+    describe,
+    expect,
+    it,
+    test,
+    vi,
+} from 'vitest';
 import {
     executeAfterTwoHours,
     executeEveryMinute,
@@ -127,5 +139,51 @@ describe('delayed execution', () => {
         expect(mock).toHaveBeenCalledTimes(1);
         vi.advanceTimersToNextTimer();
         expect(mock).toHaveBeenCalledTimes(2);
+    });
+});
+
+// Mock requests
+const posts = [
+    {
+        userId: 1,
+        id: 1,
+        title: 'first post title',
+        body: 'first post body',
+    },
+    // ...
+];
+
+export const restHandlers = [
+    http.get(
+        'https://rest-endpoint.example/path/to/posts',
+        () => new Response('Hello world!')
+    ),
+];
+
+const graphqlHandlers = [
+    graphql.query(
+        'https://graphql-endpoint.example/api/v1/posts',
+        (_req, res, ctx) => res(ctx.data(posts))
+    ),
+];
+
+const server = setupServer(...restHandlers, ...graphqlHandlers);
+
+// Start server before all tests
+beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
+
+//  Close server after all tests
+afterAll(() => server.close());
+
+// Reset handlers after each test `important for test isolation`
+afterEach(() => server.resetHandlers());
+
+describe('fetching posts', () => {
+    it('should fetch posts', async () => {
+        const response = await fetch(
+            'https://rest-endpoint.example/path/to/posts'
+        );
+        const data = await response.text();
+        expect(data).toEqual('Hello world!');
     });
 });
