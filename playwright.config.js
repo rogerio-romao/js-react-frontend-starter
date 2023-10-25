@@ -71,9 +71,9 @@ export default defineConfig({
 
     testIgnore: '*tests-examples/*.spec.js',
     /* Run your local dev server before starting the tests */
-    // webServer: {
-    //   command: 'npm run start',
-    //   url: 'http://127.0.0.1:3000',
-    //   reuseExistingServer: !process.env.CI,
-    // },
+    webServer: {
+        command: 'pnpm run dev:ci',
+        url: 'http://localhost:5173',
+        reuseExistingServer: !process.env.CI,
+    },
 });
