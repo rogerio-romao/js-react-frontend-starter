@@ -17,6 +17,7 @@
         "test:ui": "vitest --ui --coverage",
         "test:ci": "vitest run",
         "test:coverage": "vitest run --coverage",
+        "test:e2e": "playwright test",
         "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci",
         "prepare": "husky install"
     },
