@@ -18,7 +18,9 @@
         "test:ci": "vitest run",
         "test:coverage": "vitest run --coverage",
         "test:e2e": "playwright test",
-        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci",
+        "test:e2e:ui": "playwright test --ui",
+        "test:e2e:codegen": "playwright codegen",
+        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci && pnpm run test:e2e",
         "prepare": "husky install"
     },
     "repository": {

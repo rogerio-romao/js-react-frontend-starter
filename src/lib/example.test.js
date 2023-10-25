@@ -19,7 +19,7 @@ import {
     purchase,
     sum,
     toUpperCase,
-} from './example-tests';
+} from './example';
 
 // Mock globals
 const IntersectionObserverMock = vi.fn(() => {
