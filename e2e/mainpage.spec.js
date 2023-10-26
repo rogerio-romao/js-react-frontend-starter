@@ -6,9 +6,9 @@ test('mainpage', async ({ page, baseURL }) => {
         page.getByRole('heading', { name: 'React App' })
     ).toBeVisible();
     await expect(page).toHaveTitle('JS Frontend Starter / React');
-    await expect(page.getByRole('paragraph')).toHaveText('Count: 0');
+    await expect(page.getByTestId('counter')).toHaveText('Count: 0');
     await page.getByRole('button', { name: 'Increment' }).click();
-    await expect(page.getByRole('paragraph')).toHaveText('Count: 1');
+    await expect(page.getByTestId('counter')).toHaveText('Count: 1');
     await page.getByRole('button', { name: 'Increment' }).click();
-    await expect(page.getByRole('paragraph')).toHaveText('Count: 2');
+    await expect(page.getByTestId('counter')).toHaveText('Count: 2');
 });
