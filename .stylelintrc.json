@@ -98,7 +98,6 @@
         ],
         "color-hex-length": "short",
         "font-weight-notation": "numeric",
-        "import-notation": "string",
         "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
         "media-feature-range-notation": "context",
         "selector-pseudo-element-colon-notation": "double",
