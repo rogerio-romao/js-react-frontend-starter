@@ -15,7 +15,7 @@ dependencies:
 devDependencies:
   '@isnotdefined/stylelint-plugin':
     specifier: ^4.0.0
-    version: 4.0.0(stylelint@16.2.0)
+    version: 4.0.0(stylelint@16.2.1)
   '@playwright/test':
     specifier: ^1.41.1
     version: 1.41.1
@@ -74,47 +74,47 @@ devDependencies:
     specifier: ^2.1.5
     version: 2.1.5(typescript@5.2.2)
   stylelint:
-    specifier: ^16.0.0
-    version: 16.2.0(typescript@5.2.2)
+    specifier: ^16.2.1
+    version: 16.2.1(typescript@5.2.2)
   stylelint-a11y:
     specifier: ^1.2.3
-    version: 1.2.3(stylelint@16.2.0)
+    version: 1.2.3(stylelint@16.2.1)
   stylelint-css-modules:
     specifier: ^1.2.2
-    version: 1.2.2(stylelint@16.2.0)
+    version: 1.2.2(stylelint@16.2.1)
   stylelint-css-modules-no-global-scoped-selector:
     specifier: ^1.0.2
-    version: 1.0.2(stylelint@16.2.0)
+    version: 1.0.2(stylelint@16.2.1)
   stylelint-declaration-block-no-ignored-properties:
     specifier: ^2.8.0
-    version: 2.8.0(stylelint@16.2.0)
+    version: 2.8.0(stylelint@16.2.1)
   stylelint-group-selectors:
     specifier: ^1.0.10
-    version: 1.0.10(stylelint@16.2.0)
+    version: 1.0.10(stylelint@16.2.1)
   stylelint-high-performance-animation:
     specifier: ^1.10.0
-    version: 1.10.0(stylelint@16.2.0)
+    version: 1.10.0(stylelint@16.2.1)
   stylelint-no-unused-selectors:
     specifier: ^1.0.40
-    version: 1.0.40(stylelint@16.2.0)
+    version: 1.0.40(stylelint@16.2.1)
   stylelint-plugin-defensive-css:
     specifier: ^1.0.2
-    version: 1.0.2(stylelint@16.2.0)
+    version: 1.0.2(stylelint@16.2.1)
   stylelint-plugin-logical-css:
     specifier: ^1.0.0
-    version: 1.0.0(stylelint@16.2.0)
+    version: 1.0.0(stylelint@16.2.1)
   stylelint-rem-over-px:
     specifier: ^1.0.1
-    version: 1.0.1(stylelint@16.2.0)
+    version: 1.0.1(stylelint@16.2.1)
   stylelint-selector-tag-no-without-class:
     specifier: ^2.0.6
-    version: 2.0.6(stylelint@16.2.0)
+    version: 2.0.6(stylelint@16.2.1)
   stylelint-use-nesting:
     specifier: ^4.1.0
-    version: 4.1.0(stylelint@16.2.0)
+    version: 4.1.0(stylelint@16.2.1)
   stylelint-value-no-exposed-custom-properties:
     specifier: ^2.3.1
-    version: 2.3.1(stylelint@16.2.0)
+    version: 2.3.1(stylelint@16.2.1)
   vite:
     specifier: ^5.0.12
     version: 5.0.12(@types/node@20.11.10)
@@ -701,7 +701,7 @@ packages:
       debug: 4.3.4
       espree: 9.6.1
       globals: 13.23.0
-      ignore: 5.2.4
+      ignore: 5.3.0
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -747,14 +747,14 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@isnotdefined/stylelint-plugin@4.0.0(stylelint@16.2.0):
+  /@isnotdefined/stylelint-plugin@4.0.0(stylelint@16.2.1):
     resolution: {integrity: sha512-KHUgUWK/dZp88JRa3qBpS2VCsbPota2y/Gz9QHCRN/CzQEuV9XttJrNzKNyUjVCNdo61ZQTy/CqCyPiQpg50yA==}
     peerDependencies:
       stylelint: ^16
     dependencies:
       postcss: 8.4.32
       postcss-values-parser: 6.0.2(postcss@8.4.32)
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
   /@istanbuljs/schema@0.1.3:
@@ -4258,7 +4258,7 @@ packages:
     dependencies:
       icss-utils: 4.1.1
       postcss: 7.0.39
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -5044,16 +5044,16 @@ packages:
       acorn: 8.10.0
     dev: true
 
-  /stylelint-a11y@1.2.3(stylelint@16.2.0):
+  /stylelint-a11y@1.2.3(stylelint@16.2.1):
     resolution: {integrity: sha512-S/iiKFUsYBfa4suxP0pYQqoPB9R1+SnvxVuzHHlz9al0IWxLZzXlnZEqEez0zNOhVh5iO3rATUmDnbZE5wm/pQ==}
     engines: {node: '>=8.7.0'}
     peerDependencies:
       stylelint: ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-css-modules-no-global-scoped-selector@1.0.2(stylelint@16.2.0):
+  /stylelint-css-modules-no-global-scoped-selector@1.0.2(stylelint@16.2.1):
     resolution: {integrity: sha512-NMerTM1/8D4Az/c3P59eYptP3PoNuUXV1NuJ+Xe+TILqZH8UE4oV9NvjUnklnVHvYqk5HsjAURnvMNXZAzYBLA==}
     peerDependencies:
       stylelint: ^13.0.0 || ^14.0.0
@@ -5062,49 +5062,49 @@ packages:
       postcss-modules-local-by-default: 3.0.3
       postcss-resolve-nested-selector: 0.1.1
       rewire: 5.0.0
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /stylelint-css-modules@1.2.2(stylelint@16.2.0):
+  /stylelint-css-modules@1.2.2(stylelint@16.2.1):
     resolution: {integrity: sha512-QoUrRbXSNvOA/aXOgLrmKmM+Rc/ZGDfgvku1Mgtxb/jE9DGeyhTwmZ+kQbJUmF7nLFW9dAPlsw0fb2AN6A/vBA==}
     peerDependencies:
       stylelint: '>= 9'
     dependencies:
       enhanced-resolve: 4.5.0
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-declaration-block-no-ignored-properties@2.8.0(stylelint@16.2.0):
+  /stylelint-declaration-block-no-ignored-properties@2.8.0(stylelint@16.2.1):
     resolution: {integrity: sha512-Ws8Cav7Y+SPN0JsV407LrnNXWOrqGjxShf+37GBtnU/C58Syve9c0+I/xpLcFOosST3ternykn3Lp77f3ITnFw==}
     engines: {node: '>=6'}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-group-selectors@1.0.10(stylelint@16.2.0):
+  /stylelint-group-selectors@1.0.10(stylelint@16.2.1):
     resolution: {integrity: sha512-t0FbKdKZFlbb2VFZ1cfU0+TUHlrPz0ORIuFCse1rVCvfYF0H75k4rRj544b1Lz6GTbdI3o1Yivotk8i8T6TvOA==}
     peerDependencies:
       stylelint: '>=14.9.1'
     dependencies:
       md5: 2.3.0
       postcss: 8.4.31
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-high-performance-animation@1.10.0(stylelint@16.2.0):
+  /stylelint-high-performance-animation@1.10.0(stylelint@16.2.1):
     resolution: {integrity: sha512-YzNI+E6taN8pwgaM0INazRg4tw23VA17KNMKUVdOeohpnpSyJLBnLVT9NkRcaCFLodK/67smS5VZK+Qe4Ohrvw==}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       postcss-value-parser: 4.2.0
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-no-unused-selectors@1.0.40(stylelint@16.2.0):
+  /stylelint-no-unused-selectors@1.0.40(stylelint@16.2.1):
     resolution: {integrity: sha512-NSx1OuW1a0xr9x6ms1RYY8TysBrsu3pfBdoY4HQ+p4DUvlrH7lE1ao+Bd7sxlqJClp12ocRK+b6mk+fD/cYrRg==}
     engines: {node: '>=8.16.0'}
     peerDependencies:
@@ -5118,7 +5118,7 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       string-template: 1.0.0
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
       typescript: 3.9.10
     transitivePeerDependencies:
       - bufferutil
@@ -5127,62 +5127,62 @@ packages:
       - utf-8-validate
     dev: true
 
-  /stylelint-plugin-defensive-css@1.0.2(stylelint@16.2.0):
+  /stylelint-plugin-defensive-css@1.0.2(stylelint@16.2.1):
     resolution: {integrity: sha512-VI91Tjm3e07OfR3u24GgMqdO0/lgv93nIGic9e5gmvlMUwtdloGJtJenlcYWNChmdBXmuikf2wtAYqPQfBoOBA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-plugin-logical-css@1.0.0(stylelint@16.2.0):
+  /stylelint-plugin-logical-css@1.0.0(stylelint@16.2.1):
     resolution: {integrity: sha512-8cv0M59brhqR6V5yCzo/LNZZ2ePyaEaNeqLOPXxSyZVhOfyPamrLTvKvAX4F7o9W1uMbysHBlThcF7voMNLsZQ==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-rem-over-px@1.0.1(stylelint@16.2.0):
+  /stylelint-rem-over-px@1.0.1(stylelint@16.2.1):
     resolution: {integrity: sha512-gy6EgrETx11UI4mNrrFMMZ/7ixnC29l8wkqpfqjtH0JB7SUG4TOLh2v2s58NQdPP+/KEYeeWFbpSgGLpmBJyWg==}
     peerDependencies:
       stylelint: '>= 8'
     dependencies:
       postcss-value-parser: 4.2.0
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-selector-tag-no-without-class@2.0.6(stylelint@16.2.0):
+  /stylelint-selector-tag-no-without-class@2.0.6(stylelint@16.2.1):
     resolution: {integrity: sha512-57VJuGic5zNklj6KP8WHWQc6Ue1GrLhyrShAiptahXRY6Qzhevf3fH20rJA0f/woT37NULvndU1n+7Ju6Eg/tg==}
     peerDependencies:
       stylelint: '>= 9.x < 16'
     dependencies:
       lodash: 4.17.21
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-use-nesting@4.1.0(stylelint@16.2.0):
+  /stylelint-use-nesting@4.1.0(stylelint@16.2.1):
     resolution: {integrity: sha512-DDI+T/8kGIxdcfPClxp/oS2cFSWvd+hoV54clF7lnrlSvYHOQouaxgMOuPmkIQig0suss/PrAw5GwBYoSu8WoQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       stylelint: '>= 10'
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint-value-no-exposed-custom-properties@2.3.1(stylelint@16.2.0):
+  /stylelint-value-no-exposed-custom-properties@2.3.1(stylelint@16.2.1):
     resolution: {integrity: sha512-t3lIxS3zY/Mn//FXjyFqfyTxDSj3aCsrwnNzWQceFs6TfJ7zPY2fbF8Gf2vNOm68JyZizB7kWlC4mcDnWKmE+g==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
       stylelint: ^9.5.0
     dependencies:
-      stylelint: 16.2.0(typescript@5.2.2)
+      stylelint: 16.2.1(typescript@5.2.2)
     dev: true
 
-  /stylelint@16.2.0(typescript@5.2.2):
-    resolution: {integrity: sha512-gwqU5AkIb52wrAzzn+359S3NIJDMl02TXLUaV2tzA/L6jUdpTwNt+MCxHlc8+Hb2bUHlYVo92YeSIryF2gJthA==}
+  /stylelint@16.2.1(typescript@5.2.2):
+    resolution: {integrity: sha512-SfIMGFK+4n7XVAyv50CpVfcGYWG4v41y6xG7PqOgQSY8M/PgdK0SQbjWFblxjJZlN9jNq879mB4BCZHJRIJ1hA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
