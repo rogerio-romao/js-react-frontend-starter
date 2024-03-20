@@ -72,7 +72,7 @@ devDependencies:
     version: 9.0.11
   msw:
     specifier: ^2.1.5
-    version: 2.2.5(typescript@5.4.2)
+    version: 2.2.7(typescript@5.4.2)
   stylelint:
     specifier: ^16.2.1
     version: 16.2.1(typescript@5.4.2)
@@ -688,7 +688,7 @@ packages:
     dependencies:
       '@inquirer/type': 1.2.1
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.11.28
+      '@types/node': 20.11.29
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -989,8 +989,8 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.11.28:
-    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
+  /@types/node@20.11.29:
+    resolution: {integrity: sha512-P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -3042,8 +3042,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /headers-polyfill@4.0.2:
-    resolution: {integrity: sha512-EWGTfnTqAO2L/j5HZgoM/3z82L7necsJ0pO9Tp0X1wil3PDLrkypTBRgVO2ExehEEvUycejZD3FuRaXpZZc3kw==}
+  /headers-polyfill@4.0.3:
+    resolution: {integrity: sha512-IScLbePpkvO846sIwOtOTDjutRMWdXdJmXdMvk6gCBHxFO8d+QKOQedyZSxFTTFYRSmlgSTDtXqqq4pcenBXLQ==}
     dev: true
 
   /hosted-git-info@2.8.9:
@@ -3846,8 +3846,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.2.5(typescript@5.4.2):
-    resolution: {integrity: sha512-9JTDvKTc7Weu8iF0JQeW3+ispwR12rJyHgqncoTBdQZ4L41Acm09i8CViY2c2ULaVTFhhorDwECR27QiXpPw5g==}
+  /msw@2.2.7(typescript@5.4.2):
+    resolution: {integrity: sha512-ZxJpzw2Y8QvgPsYY4D4giBOkQNrTauqr3zh2aGguW4alnf9JHryJNCui/pGlsWfhwbpz2KkndmGkl9dVFHzHZA==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -3867,7 +3867,7 @@ packages:
       '@types/statuses': 2.0.5
       chalk: 4.1.2
       graphql: 16.8.1
-      headers-polyfill: 4.0.2
+      headers-polyfill: 4.0.3
       is-node-process: 1.2.0
       outvariant: 1.4.2
       path-to-regexp: 6.2.1
