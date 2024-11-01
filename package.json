@@ -39,7 +39,7 @@
     "devDependencies": {
         "@isnotdefined/stylelint-plugin": "^5.0.0",
         "@playwright/test": "^1.45.1",
-        "@types/node": "^20.11.16",
+        "@types/node": "^22.8.6",
         "@types/react": "^18.2.51",
         "@types/react-dom": "^18.2.18",
         "@typescript-eslint/parser": "^7.0.0",
